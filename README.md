@@ -11,7 +11,7 @@ This repo is a collection of configuration for deploying AWS. It include: 1 VPC,
 
 **asg.tf**: This file will define the launch template and autoscaling group
 
-**ec2.tf**: This file will define the standalone redhat ec2
+**ec2.tf**: This file will define the standalone redhat ec2 and the provider
 
 **network.tf**: This file will define the vpc, subnets in different availability zone, internet gateway, route table and define the security groups
 
