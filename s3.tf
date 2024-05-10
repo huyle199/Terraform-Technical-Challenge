@@ -56,20 +56,6 @@ resource "aws_s3_bucket_lifecycle_configuration" "logs_lifecycle" {
     }
 }
 
-#     enable_lifecycle_configuration_rules = true
-    
-#     lifecycle_configuration_rules = [
-#     {
-#         id      = "Memes_folder_rule"
-#         enabled  = true
-#         enable_glacier_transition = true
-#         glacier_transition_days   = 90
-#         prefix = "Memes/"
-#         }
-#     ]
-    
-# }
-
 # # Create S3 bucket for logs using the terraform-aws-s3 module
 # module "logs_bucket" {
 #     source = "github.com/Coalfire-CF/terraform-aws-s3"
