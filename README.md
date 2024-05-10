@@ -10,3 +10,4 @@ Workflow:
 
 asg.tf: This file will define the launch template and autoscaling group
 ec2.tf: This file will define the standalone redhat ec2
+
