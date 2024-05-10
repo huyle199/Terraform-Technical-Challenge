@@ -22,3 +22,7 @@ This repo is a collection of configuration for deploying AWS. It include: 1 VPC,
 **load_balancer.tf**: This will define the application load balancer, set up the listener and target group to forward traffic to the ASG
 
 **variables.tf**: This file will define the variables that can be referenced throughout all the files.
+
+Screenshot of terminal:
+
+![Screenshot 2024-05-10 115706](https://github.com/huyle199/Terraform-Technical-Challenge/assets/86170240/46dd5034-27da-4d0f-aca6-8a96536ad00a)
