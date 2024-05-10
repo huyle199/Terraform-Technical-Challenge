@@ -9,5 +9,15 @@ Workflow:
 
 
 asg.tf: This file will define the launch template and autoscaling group
+
 ec2.tf: This file will define the standalone redhat ec2
 
+network.tf: This file will define the vpc, subnets in different availability zone, internet gateway, route table and define the security groups
+
+iam.tf: This file will define read and write roles, combine them together into 1 profile.
+
+s3.tf: This file will define the buckets and lifecycle rules.
+
+load_balancer.tf: This will define the application load balancer, set up the listener and target group to forward traffic to the ASG
+
+variables.tf: This file will define the variables that can be referenced throughout all the files.
